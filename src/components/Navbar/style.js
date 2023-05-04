@@ -14,7 +14,10 @@ export const Container = styled.div`
   } */
 `;
 
-export const LinkComp = styled(NavLink)`
+export const LinkComp = styled(NavLink).attrs((props) => {
+  console.log(props);
+  return { activeStyle: { color: "red" } };
+})`
   font-size: 25px;
   text-decoration: none;
   color: white;

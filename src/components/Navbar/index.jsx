@@ -4,22 +4,43 @@ import { Container, LinkComp } from "./style";
 export const Navbar = () => {
   return (
     <Container>
-      <LinkComp exact activeStyle={{ color: "red" }} to={"/"}>
+      <LinkComp
+        exact
+        // activeStyle={{ color: "red" }}
+        to={"/"}
+      >
         Logo
       </LinkComp>
-      <LinkComp activeStyle={{ color: "red" }} to={"/Home"}>
+      <LinkComp
+        // activeStyle={{ color: "red" }}
+        to={"/Home"}
+      >
         Home
       </LinkComp>
-      <LinkComp activeStyle={{ color: "red" }} to={"/About"}>
+      <LinkComp
+        // activeStyle={{ color: "red" }}
+        to={"/About"}
+      >
         About
       </LinkComp>
-      <LinkComp exact activeStyle={{ color: "red" }} to={"/Contact"}>
+      <LinkComp
+        exact
+        // activeStyle={{ color: "red" }}
+        to={"/Contact"}
+      >
         Contact
       </LinkComp>
-      <LinkComp exact activeStyle={{ color: "red" }} to={"/Contact/plus"}>
+      <LinkComp
+        exact
+        // activeStyle={{ color: "red" }}
+        to={"/Contact/plus"}
+      >
         Contact++
       </LinkComp>
-      <LinkComp activeStyle={{ color: "red" }} to={"/Info"}>
+      <LinkComp
+        // activeStyle={{ color: "red" }}
+        to={"/Info"}
+      >
         Info
       </LinkComp>
     </Container>
